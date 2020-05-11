@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&display=swap");
+
+.generator {
+  font-family: "Fredoka One", cursive;
+  min-height: 300px;
+  width: 50%;
+  margin: 0 auto;
+
+  /* padding: 50px 50px 0 50px; */
+
+  -webkit-box-shadow: 6px -6px 10px -2px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 6px -6px 10px -2px rgba(255, 255, 255, 1);
+  box-shadow: 6px -6px 10px -2px rgba(255, 255, 255, 1);
+}
+
+.generator-header {
+  padding: 50px 50px 20px 50px;
+}
+
+.generator-header h2 {
+  margin-bottom: 20px;
+}
+
+.generator-body {
+  padding: 0 50px 20px 50px;
+}
+
+.results-section {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Lato", sans-serif;
+}
+
+.results-section .generated-result {
+  font-size: 16pt;
+  margin-left: 10px;
+}
+
+.results-section .generated-result::selection {
+    background: #2B3E50;
+  }
+
+.options-section {
+  font-family: "Lato", sans-serif;
+}
+
+div.options-section label {
+  font-size: 14pt;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.options-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.options-textbox {
+  width: 100%;
+  padding: 5px;
+}
+
+.options-input-wrapper {
+  width: 12%;
+}
+
+.generator-footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 18pt;
+}
+
+.generate-btn {
+  width: 100%;
+}
+
+.generator-footer button {
+  background-color: transparent;
+  padding: 30px 0;
+  width: 100%;
+  outline: none;
+  border: 0px;
+}
+
+.generator-footer button:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 2px 3px 6px -2px rgba(82, 82, 82, 1);
+  -moz-box-shadow: inset 2px 3px 6px -2px rgba(82, 82, 82, 1);
+  box-shadow: inset 2px 3px 6px -2px rgba(82, 82, 82, 1);
+}
+
+.generator-footer:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.no-select {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+  }

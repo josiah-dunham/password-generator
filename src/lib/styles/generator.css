@@ -14,11 +14,11 @@
 }
 
 .generator-header {
-  padding: 50px 50px 20px 50px;
+  padding: 20px 50px 20px 50px;
 }
 
 .generator-header h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .generator-body {
@@ -47,7 +47,7 @@
 div.options-section label {
   font-size: 14pt;
   margin-bottom: 0;
-  padding: 20px;
+  padding: 5px 5px 5px 20px;
 }
 
 .options-checkbox {
@@ -61,7 +61,7 @@ div.options-section label {
 }
 
 .options-input-wrapper {
-  width: 12%;
+  width: 20%;
 }
 
 .generator-footer {
@@ -76,7 +76,7 @@ div.options-section label {
 
 .generator-footer button {
   background-color: transparent;
-  padding: 30px 0;
+  padding: 20px 0;
   width: 100%;
   outline: none;
   border: 0px;
